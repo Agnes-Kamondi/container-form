@@ -1,20 +1,25 @@
 .container{
+    border: 1px solid white;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-block-start: 0dvb;    
+    border-radius: 100px;  
+    background-color: lightblue; 
+    width: 60%; 
+    height: fit-content;
 }
 p{
     text-align: end;
 }
 #trial{
-    border: 5px solid lightgoldenrodyellow;
-    margin: auto auto;
+    background-color: white;
+    border: 5px solid white;
+    margin: 0% auto;
     padding: 5px;
     border-radius: 50px;
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: fit-content;
     text-align: center;
 
 }
@@ -30,10 +35,11 @@ button{
 
 }
 #div2{
+    margin-top: 0 auto;
     text-align: start;
     background-color: lightblue;
-    border-radius: 50px;
-    width: 35%;
-    height:50%;
+    border-radius: 30px;
+    width: 60%;
+    height: fit-content;
 
 }
