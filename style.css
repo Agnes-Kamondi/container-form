@@ -1,14 +1,25 @@
-#image{
-    border: none;
-    border-radius: 24px;
-    margin: auto auto;
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+   
+    
+    
+}
+p{
+    text-align: end;
 }
 #trial{
     border: 5px solid lightgoldenrodyellow;
     margin: auto auto;
     padding: 5px;
-    border-radius: 24px;
-    width: 40%;
+    border-radius: 50px;
+    width: 50%;
+    height: 50%;
+    text-align: center;
 
 }
 .input{
@@ -20,5 +31,13 @@ button{
     width: 40%;
     border-radius: 24px;
     padding: 5px;
+
+}
+#div2{
+    text-align: start;
+    background-color: lightcoral;
+    border-radius: 50px;
+    width: 35%;
+    height:50%;
 
 }
